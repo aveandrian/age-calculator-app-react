@@ -89,7 +89,7 @@ function App() {
     var diffYears = diff.getUTCFullYear() - 1970
     var diffMonths = diff.getUTCMonth()
     var diffDays = diff.getUTCDate() - 1
-    
+
     setResult({years: diffYears, months: diffMonths, days: diffDays})
   }
 
@@ -101,6 +101,7 @@ function App() {
   }
 
   return (
+    <>
     <main>
       <form onSubmit={handleSubmit}>
         <div className='inputs'>
@@ -131,6 +132,11 @@ function App() {
         <h1><span>{result.days}</span> day{result.days != 1 ? "s" : ""}</h1>
       </section>
     </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/aveandrian">aveandrian</a>.
+    </footer>
+    </>
   )
 }
 
