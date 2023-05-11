@@ -36,4 +36,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/age-calculator-app-react/assets/13519212/5845fa65-650c-4579-80f5-e977fe8a776f)
